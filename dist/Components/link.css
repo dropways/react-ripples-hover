@@ -1,0 +1,117 @@
+.btn-rr{
+	position: relative;
+	overflow: hidden;
+	padding: 14px 24px;
+	font-size: 14px;
+	line-height: 24px;
+	color: #000000;
+	font-weight: 700;
+	background: transparent;
+	border: 1px solid transparent;
+	border-radius: 6px;
+	user-select: none;
+	vertical-align: middle;
+	text-align: center;
+  text-decoration: none;
+	cursor: pointer;
+	display: inline-block;
+	outline: none;
+	box-sizing: border-box;
+	transition: all 0.3s ease-in-out;
+	-webkit-mask-image: -webkit-radial-gradient(white, black);
+}
+.btn-rr:hover{
+	color: #000000;
+}
+.btn-rr:disabled,
+.btn-rr.disabled{
+	background: #d8d8d8 !important;
+	border-color: #d8d8d8 !important;
+	color: #858484!important;
+	pointer-events: none;
+}
+.btn-rr:not(.btn-rr--ripple-click):hover span.btn-rr__ripple{
+	transform: scale(2.6);
+}
+.btn-rr.btn-rr--icon-txt{
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+.btn-rr.btn-rr--icon-end{
+	flex-direction: row-reverse;
+}
+.btn-rr.btn-rr--icon-end .btn-rr__icon{
+	margin-left: 8px;
+	margin-right: 0;
+}
+.btn-rr .btn-rr__icon{
+	flex-shrink: 0;
+	margin-right: 8px;
+	pointer-events: none;
+}
+.btn-rr .btn-rr__icon svg{
+	display: block;
+}
+.btn-rr.btn-rr--rounded{
+	border-radius: 48px;
+}
+.btn-rr.btn-rr--flate{
+	border-radius: 0;
+}
+.btn-rr.btn-rr--block{
+	width: 100%;
+}
+.btn-rr:not(.btn-rr--ripple-click) span.btn-rr__ripple{
+	transition-duration: 0.5s;
+}
+.btn-rr span.btn-rr__ripple {
+	background-color: rgba(0, 0, 0, .1);
+	border-radius: 1000px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 0px;
+	height: 0px;
+	pointer-events: none;
+	transition-property: transform, background-color, opacity;
+	transition-timing-function: ease;
+	display: block;
+	z-index: -1;
+	transform: scale(0);
+}
+.btn-rr.btn-rr--primary{
+	border-color: #00B0FF;
+	background: #00B0FF;
+	color: #ffffff;
+}
+.btn-rr.btn-rr--secondary{
+	border-color: #EE2F98;
+	background: #EE2F98;
+	color: #ffffff;
+}
+.btn-rr.btn-rr--success{
+	border-color: #04a777;
+	background: #04a777;
+	color: #ffffff;
+}
+.btn-rr.btn-rr--danger{
+	border-color: #EF233C;
+	background: #EF233C;
+	color: #ffffff;
+}
+.btn-rr.btn-rr--warning{
+	border-color: #ffd050;
+	background: #ffd050;
+	color: #000000;
+}
+.btn-rr.btn-rr--info{
+	border-color: #7b2cbf;
+	background: #7b2cbf;
+	color: #ffffff;
+}
+.btn-rr.btn-rr--light{
+	border-color: #e9ecef;
+	background: #e9ecef;
+	color: #000000;
+}
