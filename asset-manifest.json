@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/react-ripples-hover/static/css/main.5ae315ea.css",
-    "main.js": "/react-ripples-hover/static/js/main.9b7e010a.js",
-    "static/media/dot-pattern-white.png": "/react-ripples-hover/static/media/dot-pattern-white.6a88578f97bd85992556.png",
-    "static/media/ripples-logo.svg": "/react-ripples-hover/static/media/ripples-logo.d48ef564eb0211bed12acaf888d48733.svg",
-    "index.html": "/react-ripples-hover/index.html"
+    "main.css": "https://dropways.github.io/react-ripples-hover/static/css/main.e250711b.css",
+    "main.js": "https://dropways.github.io/react-ripples-hover/static/js/main.e9138ce8.js",
+    "static/media/dot-pattern-white.png": "https://dropways.github.io/react-ripples-hover/static/media/dot-pattern-white.6a88578f97bd85992556.png",
+    "static/media/ripples-logo.svg": "https://dropways.github.io/react-ripples-hover/static/media/ripples-logo.d48ef564eb0211bed12acaf888d48733.svg",
+    "index.html": "https://dropways.github.io/react-ripples-hover/index.html"
   },
   "entrypoints": [
-    "static/css/main.5ae315ea.css",
-    "static/js/main.9b7e010a.js"
+    "static/css/main.e250711b.css",
+    "static/js/main.e9138ce8.js"
   ]
 }
