@@ -6,6 +6,7 @@
 		"type": "git",
 		"url": "https://github.com/dropways/react-ripples-hover"
 	},
+	"homepage": "http://dropways.github.io/react-ripples-hover",
 	"keywords": [
 		"react",
 		"ripple",
@@ -43,6 +44,8 @@
 		"start": "react-scripts start",
 		"build": "set \"GENERATE_SOURCEMAP=false\" && react-scripts build",
 		"package-build": "rm -rf dist && babel src/lib --out-dir dist --copy-files",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject"
 	},
@@ -70,6 +73,7 @@
 		"@babel/polyfill": "^7.12.1",
 		"@babel/preset-env": "^7.13.12",
 		"@tabler/icons-react": "^2.2.0",
+		"gh-pages": "^5.0.0",
 		"react-router-dom": "^6.8.0",
 		"react-syntax-highlighter": "^15.5.0"
 	}
