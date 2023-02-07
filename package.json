@@ -1,6 +1,6 @@
 {
 	"name": "react-ripples-hover",
-	"version": "0.1.2",
+	"version": "0.1.3",
 	"description": "React ripple effect on hover and click component. Customizable, lightweight Google's Material UI style ripple effect",
 	"repository": {
 		"type": "git",
@@ -40,7 +40,6 @@
 		"@testing-library/jest-dom": "^5.16.5",
 		"@testing-library/react": "^13.4.0",
 		"@testing-library/user-event": "^13.5.0",
-		"kwt": "./dist",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
 		"react-scripts": "5.0.1",
